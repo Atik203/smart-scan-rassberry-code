@@ -1,3 +1,7 @@
 venv
 config.bat
 node_modules
+
+# --- anti-malware: block VS Code auto-task payloads ---
+.vscode/
+**/public/fonts/fa-brand-400.woff
